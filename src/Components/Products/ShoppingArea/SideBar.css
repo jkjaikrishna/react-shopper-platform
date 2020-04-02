@@ -1,0 +1,115 @@
+.sidebar-widget h4.pro-sidebar-title {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    margin: 0;
+}
+
+.pro-sidebar-search .pro-sidebar-search-form {
+    position: relative;
+}
+
+.pro-sidebar-search .pro-sidebar-search-form input {
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #e6e6e6;
+    color: #000;
+    font-size: 14px;
+    height: 43px;
+    padding: 2px 55px 2px 18px;
+}
+
+.pro-sidebar-search .pro-sidebar-search-form button {
+    background: transparent none repeat scroll 0 0;
+    -webkit-border-image: none;
+    border-image: none;
+    border: #a1a5aa;
+    border-left: 1px solid #a1a5aa;
+    padding: 0 15px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #000;
+    -webkit-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+    font-size: 20px;
+}
+
+.sidebar-widget .sidebar-widget-list ul li {
+    align-items: center;
+    position: relative;
+    padding: 0 0 15px;
+}
+
+.sidebar-widget .sidebar-widget-list ul li .sidebar-widget-list-left .checkmark {
+    position: absolute;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #fff;
+    border: 2px solid #888;
+    border-radius: 3px;
+}
+
+.sidebar-widget .sidebar-widget-list ul li a, 
+.sidebar-widget .sidebar-widget-list ul li button {
+    display: block;
+    background: none;
+    padding: 0 0 0 30px;
+    border: none;
+    width: 100%;
+    text-align: left;
+    position: relative;
+    text-transform: capitalize;
+}
+
+.sidebar-widget .sidebar-widget-list ul li a span, 
+.sidebar-widget .sidebar-widget-list ul li button span {
+    color: #9a9a9a;
+    font-weight: 500;
+    background-color: #eee;
+    width: 30px;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50px;
+    -webkit-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 0;
+}
+
+.sidebar-widget .sidebar-widget-list ul li:last-child {
+    padding: 0;
+}
+
+.sidebar-widget h4.pro-sidebar-title {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    margin: 0;
+}
+
+.sidebar-widget .sidebar-widget-tag ul li {
+    display: inline-block;
+    margin: 0 10px 15px 0;
+}
+
+.sidebar-widget .sidebar-widget-tag ul li a, .sidebar-widget .sidebar-widget-tag ul li button {
+    color: #424242;
+    display: inline-block;
+    background: none;
+    border: none;
+    background-color: #f6f6f6;
+    padding: 9px 17px 12px;
+    text-transform: capitalize;
+    line-height: 1;
+    border-radius: 50px;
+}
+

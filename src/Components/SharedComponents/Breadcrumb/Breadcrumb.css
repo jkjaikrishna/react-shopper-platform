@@ -1,0 +1,15 @@
+.breadcrumb-content span>span {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.breadcrumb-content span>span>span {
+    margin: 0 15px;
+}
+
+.breadcrumb-content span>span>a {
+    font-weight: 500;
+    color: #5b5858;
+}
