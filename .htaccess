@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_URI} !^/build
+#RewriteCond %{REQUEST_URI} !^/r/exclude-file1\.html$
+#RewriteCond %{REQUEST_URI} !^/folder/exclude-file2\.html$
+#RewriteCond %{REQUEST_URI} !^/folder/exclude-dir
+#RewriteRule (.*) build/$1 [R=302,L]
+RewriteRule !^build/ /build%{REQUEST_URI}  [L]
